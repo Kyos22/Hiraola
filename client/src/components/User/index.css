@@ -1,0 +1,431 @@
+/*
+Template Name: Rd Jewellers
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+/*********************center_home****************/
+.fade-carousel {
+    position: relative;
+    min-height: 600px;
+}
+.fade-carousel .carousel-inner .item {
+    min-height: 600px;
+}
+.fade-carousel .carousel-indicators > li {
+    margin: 0 4px;
+    opacity: .8;
+}
+.fade-carousel .carousel-indicators > li.active {
+  opacity: 1;
+}
+
+
+
+
+.hero h4{
+display:inline-block;
+margin-left:4px;
+margin-right:4px;
+font-weight:normal;
+ }
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+    position: absolute;
+	width:50%;
+    top: 50%;
+    left:30%;
+	padding:20px 20px;
+    z-index: 2;
+    
+    
+    text-transform:capitalize;
+    /* text-shadow: 1px 1px 0 rgba(0,0,0,.75); */
+	-webkit-transform: translate3d(-50%,-50%,0);
+	-moz-transform: translate3d(-50%,-50%,0);
+	-ms-transform: translate3d(-50%,-50%,0);
+	-o-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+.hero_1{
+left:88%!important; 
+ }
+
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s; 
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s;    
+}
+
+/********************************/
+/*            Overlay           */
+/********************************/
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #080d1526;
+    opacity: 1;
+}
+
+/********************************/
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+  min-height: 600px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+   
+	  background-position:center;
+}
+.fade-carousel .slides .slide-2 {
+  
+	background-position:center;
+}
+.fade-carousel .slides .slide-3 {
+ 
+	  background-position:center;
+}
+#center .carousel-indicators{
+  bottom:0;
+  }
+.fade-carousel .carousel-indicators > li{
+      background: #fff;
+	  border-color: #fff;
+	  width:20px;
+	  height:20px;
+	  border-radius:0;
+  }
+.fade-carousel .carousel-indicators > li.active{
+      width:20px;
+	  height:20px;
+	  background:#d93d3d;
+	  border-color:#d93d3d;
+  }
+/*********************center_home_end****************/
+
+/*********************list****************/
+#list{
+padding-top:40px;
+padding-bottom:40px; 
+ }
+.feature_2_last .btn-success{
+background:#d93d3d;
+padding:0;
+border:none;
+width:40px;
+height:40px;
+line-height:40px;
+border:1px solid #d93d3d;
+margin-left:3px;
+margin-right:3px;
+text-align:center;
+font-size:20px;
+border-radius:0;
+ }
+.feature_2_last .btn-success:hover{
+ background:#000;
+ border-color:#000;
+ color:#fff;
+ }
+.feature_2_last {
+margin-top: 30px;
+}
+.list_2i{
+border:1px solid #f4573729;
+padding:20px; 
+ }
+.list_2{
+margin-top:30px; 
+ }
+ 
+#list_o{
+padding-top:40px;
+padding-bottom:40px; 
+ }
+#list_o_1{
+padding-top:40px;
+padding-bottom:40px; 
+ }
+/*********************list_end****************/
+
+/*********************price****************/
+.price_2i{
+box-shadow: 0 0 10px #f4573752;
+padding:10px;
+ }
+.price_2{
+margin-top:30px;  
+ }
+/*********************price_end****************/
+
+/*********************popular****************/
+.popular_1i img{
+margin-top:15px; 
+ }
+.popular_1i{
+padding:15px;
+background:#f4573712;
+ }
+.popular_1{
+margin-top:30px; 
+ }
+.popular_1i .button_1{
+padding:10px 15px 10px 15px;
+ }
+.bg_1{
+background:#f4573729; 
+ }
+/*********************popular_end****************/
+
+/*********************collection****************/
+.collect_1l{
+background:#fff;
+padding:30px 20px; 
+ }
+#collection_o{
+padding-top:40px;
+padding-bottom:40px; 
+background:#f4573712;
+ }
+#collection_o .collect_1ll{
+padding-top:50px; 
+ }
+/*********************collection_end****************/
+
+/*********************explore****************/
+#explore {
+  
+}
+.explore_m{
+padding-top:130px;
+padding-bottom:130px; 
+background-color: #080d1526;
+ }
+.explore_1l h3:before {
+    display: inline-block;
+    width: 10%;
+    height: 2px;
+    background-color: #fff;
+    vertical-align: middle;
+    margin-right: 2%;
+    content: "";
+}
+.explore_1l h3:after {
+    display: inline-block;
+    width: 10%;
+    height: 2px;
+    background-color: #fff;
+    vertical-align: middle;
+    margin-left: 2%;
+    content: "";
+}
+/*********************explore_end****************/
+
+/*********************list_last****************/
+#list_last{
+padding-top:40px;
+padding-bottom:40px; 
+ }
+.list_last_1i span{
+display:inline-block;
+background:#d93d3d;
+color:#fff;
+width:120px;
+height:120px; 
+border-radius:50%;
+text-align:center;
+line-height:115px;
+font-size:50px;
+border:2px solid #d93d3d;
+ }
+.list_last_1i span:hover{
+background:none; 
+color:#d93d3d;
+ }
+.list_last_1i {
+    padding: 15px;
+    box-shadow: 0 0 10px #f4573752;
+	margin-left:5px;
+	margin-right:5px;
+}
+.list_last_1i  hr{
+border-color:#f4573729;
+border-width:2px;
+width:20%;
+}
+.list_last_1{
+ margin-top:30px;
+ }
+/*********************list_last_end****************/
+
+@media screen and (max-width : 767px){
+.center_home{
+text-align:center; 
+ }
+.hero{
+width:100%;
+left:50%!important;
+ }
+.hero hr{
+margin-left:auto;
+ }
+.hero br{
+display:none;
+ }
+#list{
+text-align:center;  
+ }
+.list_1r{
+text-align:center;  
+margin-top:15px; 
+ }
+#price{
+text-align:center; 
+ }
+.price_2i{
+margin-bottom:15px; 
+ }
+.price_2i img{
+margin-top:15px; 
+ }
+#popular{
+text-align:center; 
+ }
+.popular_1ii h5{
+text-align:center; 
+ }
+.popular_1i{
+margin-bottom:15px; 
+ }
+#list_o_1{
+text-align:center;  
+ }
+#collection_o{
+text-align:center;  
+ }
+.collect_1lr{
+margin-top:15px; 
+ }
+.collect_1ln{
+margin-top:15px; 
+ }
+.list_last_1i{
+margin-bottom:15px; 
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.hero_1{
+left:75%!important; 
+ }
+.center_home br{
+display:none;
+ }
+.popular_1i .button_1 {
+    padding: 5px 8px 5px 8px;
+	font-size:14px;
+}
+#explore {
+background-position:center;
+}
+ }
+@media (min-width:992px) and (max-width:1200px) {
+.hero_1{
+left:75%!important; 
+ }
+ }
+@media (min-width:1201px) and (max-width:1220px) {
+
+ }
+
+ .tag-container {
+    position: absolute;
+    top: 7%; /* Aligns the container to the top of the parent */
+    left: 9%;  /* Adjust height as needed */
+  }
+  
+  .tag {
+    background-color: #CDA557; /* Your color */
+    color: white; /* Text color */
+    padding: 0.3em 0.7em; /* Spacing inside the tag */
+    /* To position the pseudo-element */
+    font-weight: bold; /* Bold text */
+    font-family: sans-serif; /* Font choice */
+    font-size: 1.3rem;
+  }
+  
+  .tag::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -9px; /* Adjust this value as needed */
+    border-width: 10px 10px 0; /* Creates a triangle */
+    border-style: solid;
+    border-color: #CDA557 transparent transparent transparent; /* Match the tag background color */
+    transform: translateX(-50%); /* Centers the triangle */
+  }
+  @keyframes focusIn {
+    0% {
+      filter: blur(8px);
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    100% {
+      filter: blur(0);
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .focus-in-text {
+    animation: focusIn 1s ease forwards;
+  }
+  .product-card {
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-links {
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    /* ... */
+  }
+  
+  .product-card:hover .product-links {
+    opacity: 1;
+  }
+  
+ .product_1r1 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .product_1r1:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
